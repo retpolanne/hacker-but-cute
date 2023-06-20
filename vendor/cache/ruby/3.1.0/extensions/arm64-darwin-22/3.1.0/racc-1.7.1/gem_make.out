@@ -1,0 +1,29 @@
+current directory: /Users/annemacedo/Dev/hacker-but-cute/vendor/cache/ruby/3.1.0/gems/racc-1.7.1/ext/racc/cparse
+/nix/store/a2kxsrdnn6927wg8ycmdnx437ck90bil-ruby-3.1.4/bin/ruby extconf.rb
+checking for rb_block_call()... yes
+checking for rb_ary_subseq()... yes
+creating Makefile
+
+current directory: /Users/annemacedo/Dev/hacker-but-cute/vendor/cache/ruby/3.1.0/gems/racc-1.7.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20230620-86696-ys09lx sitelibdir\=./.gem.20230620-86696-ys09lx clean
+make[1]: Entering directory '/Users/annemacedo/Dev/hacker-but-cute/vendor/cache/ruby/3.1.0/gems/racc-1.7.1/ext/racc/cparse'
+make[1]: Leaving directory '/Users/annemacedo/Dev/hacker-but-cute/vendor/cache/ruby/3.1.0/gems/racc-1.7.1/ext/racc/cparse'
+
+current directory: /Users/annemacedo/Dev/hacker-but-cute/vendor/cache/ruby/3.1.0/gems/racc-1.7.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20230620-86696-ys09lx sitelibdir\=./.gem.20230620-86696-ys09lx
+make[1]: Entering directory '/Users/annemacedo/Dev/hacker-but-cute/vendor/cache/ruby/3.1.0/gems/racc-1.7.1/ext/racc/cparse'
+compiling cparse.c
+linking shared-object racc/cparse.bundle
+ld: warning: directory not found for option '-L/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-clang-wrapper-11.1.0/resource-root/lib'
+make[1]: Leaving directory '/Users/annemacedo/Dev/hacker-but-cute/vendor/cache/ruby/3.1.0/gems/racc-1.7.1/ext/racc/cparse'
+
+current directory: /Users/annemacedo/Dev/hacker-but-cute/vendor/cache/ruby/3.1.0/gems/racc-1.7.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20230620-86696-ys09lx sitelibdir\=./.gem.20230620-86696-ys09lx install
+make[1]: Entering directory '/Users/annemacedo/Dev/hacker-but-cute/vendor/cache/ruby/3.1.0/gems/racc-1.7.1/ext/racc/cparse'
+install -c -p -m 755 cparse.bundle ./.gem.20230620-86696-ys09lx/racc
+make[1]: Leaving directory '/Users/annemacedo/Dev/hacker-but-cute/vendor/cache/ruby/3.1.0/gems/racc-1.7.1/ext/racc/cparse'
+
+current directory: /Users/annemacedo/Dev/hacker-but-cute/vendor/cache/ruby/3.1.0/gems/racc-1.7.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20230620-86696-ys09lx sitelibdir\=./.gem.20230620-86696-ys09lx clean
+make[1]: Entering directory '/Users/annemacedo/Dev/hacker-but-cute/vendor/cache/ruby/3.1.0/gems/racc-1.7.1/ext/racc/cparse'
+make[1]: Leaving directory '/Users/annemacedo/Dev/hacker-but-cute/vendor/cache/ruby/3.1.0/gems/racc-1.7.1/ext/racc/cparse'

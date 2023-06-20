@@ -1,0 +1,28 @@
+current directory: /Users/annemacedo/Dev/hacker-but-cute/vendor/cache/ruby/3.1.0/gems/eventmachine-1.2.7/ext/fastfilereader
+/nix/store/a2kxsrdnn6927wg8ycmdnx437ck90bil-ruby-3.1.4/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /Users/annemacedo/Dev/hacker-but-cute/vendor/cache/ruby/3.1.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\= sitearchdir\=./.gem.20230620-86696-lxkyaj sitelibdir\=./.gem.20230620-86696-lxkyaj clean
+make[1]: Entering directory '/Users/annemacedo/Dev/hacker-but-cute/vendor/cache/ruby/3.1.0/gems/eventmachine-1.2.7/ext/fastfilereader'
+make[1]: Leaving directory '/Users/annemacedo/Dev/hacker-but-cute/vendor/cache/ruby/3.1.0/gems/eventmachine-1.2.7/ext/fastfilereader'
+
+current directory: /Users/annemacedo/Dev/hacker-but-cute/vendor/cache/ruby/3.1.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\= sitearchdir\=./.gem.20230620-86696-lxkyaj sitelibdir\=./.gem.20230620-86696-lxkyaj
+make[1]: Entering directory '/Users/annemacedo/Dev/hacker-but-cute/vendor/cache/ruby/3.1.0/gems/eventmachine-1.2.7/ext/fastfilereader'
+compiling mapper.cpp
+compiling rubymain.cpp
+linking shared-object fastfilereaderext.bundle
+ld: warning: directory not found for option '-L/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-clang-wrapper-11.1.0/resource-root/lib'
+make[1]: Leaving directory '/Users/annemacedo/Dev/hacker-but-cute/vendor/cache/ruby/3.1.0/gems/eventmachine-1.2.7/ext/fastfilereader'
+
+current directory: /Users/annemacedo/Dev/hacker-but-cute/vendor/cache/ruby/3.1.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\= sitearchdir\=./.gem.20230620-86696-lxkyaj sitelibdir\=./.gem.20230620-86696-lxkyaj install
+make[1]: Entering directory '/Users/annemacedo/Dev/hacker-but-cute/vendor/cache/ruby/3.1.0/gems/eventmachine-1.2.7/ext/fastfilereader'
+install -c -p -m 755 fastfilereaderext.bundle ./.gem.20230620-86696-lxkyaj
+make[1]: Leaving directory '/Users/annemacedo/Dev/hacker-but-cute/vendor/cache/ruby/3.1.0/gems/eventmachine-1.2.7/ext/fastfilereader'
+
+current directory: /Users/annemacedo/Dev/hacker-but-cute/vendor/cache/ruby/3.1.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\= sitearchdir\=./.gem.20230620-86696-lxkyaj sitelibdir\=./.gem.20230620-86696-lxkyaj clean
+make[1]: Entering directory '/Users/annemacedo/Dev/hacker-but-cute/vendor/cache/ruby/3.1.0/gems/eventmachine-1.2.7/ext/fastfilereader'
+make[1]: Leaving directory '/Users/annemacedo/Dev/hacker-but-cute/vendor/cache/ruby/3.1.0/gems/eventmachine-1.2.7/ext/fastfilereader'
