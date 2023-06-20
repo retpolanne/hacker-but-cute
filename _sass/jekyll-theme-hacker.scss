@@ -32,6 +32,12 @@ body {
   margin: 0 0 0 60px;
 }
 
+.contact {
+  position: absolute;
+  right: 40px;
+  top: 30px;
+}
+
 section {
   display: block;
   margin: 0 0 20px 0;
@@ -62,6 +68,16 @@ header {
   margin: 0 0 30px 0;
 }
 
+footer {
+  background: rgba(0, 0, 0, 0.1);
+  width: 99%;
+  border-top: 10px solid $cool-pink; //header;
+  border-bottom: 10px solid $cool-pink; //header;
+  border-left: 10px dashed $pastel-blue;
+  border-right: 10px dashed $pastel-blue;
+  padding: 20px 0;
+  margin: 0 0 30px 0;
+}
 header h1 {
   font-size: 30px;
   line-height: 1.5;

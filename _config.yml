@@ -3,3 +3,6 @@ description: Hacker is a theme for GitHub Pages.
 show_downloads: true
 google_analytics:
 theme: jekyll-theme-hacker
+github_profile: https://github.com/
+github_username: ghost
+email: ghost@ghost.com

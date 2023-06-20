@@ -17,6 +17,14 @@
           <h1>{{ site.title}}</h1>
         </a>
         <h2>{{ site.description }}</h2>
+	<div class="contact">
+	  <h2>
+            <a href="{{ site.github_profile }}">github: {{ site.github_username }}</a>
+	  </h2>
+	  <h2>
+            <a href="mailto:{{ site.email }}">email: {{ site.email }}</a>
+	  </h2>
+	</div>
       </div>
     </header>
 
@@ -25,5 +33,13 @@
         {{ content }}
       </section>
     </div>
+
+    <footer>
+      <div class="container">
+	<p>theme based on <a href="https://github.com/pages-themes/hacker">Hacker</a></p>
+	<p>get it at <a href="https://github.com/retpolanne/hacker-but-cute/">github.com/retpolanne/hacker-but-cute</a></p>
+      </div>
+    </footer>
+
   </body>
 </html>
