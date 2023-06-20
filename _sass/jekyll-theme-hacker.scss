@@ -22,6 +22,9 @@ body {
   font-size: 16px;
   line-height: 1.5;
   font-family: Hack, Terminal, monospace;
+  display: flex;
+  flex-direction: column;
+  min-height: 99vh;
 }
 
 /* General & 'Reset' Stuff */
@@ -76,7 +79,7 @@ footer {
   border-left: 10px dashed $pastel-blue;
   border-right: 10px dashed $pastel-blue;
   padding: 20px 0;
-  margin: 0 0 30px 0;
+  margin-top:  auto;
 }
 header h1 {
   font-size: 30px;
