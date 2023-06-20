@@ -32,13 +32,13 @@ body {
 .container {
   width: 90%;
   max-width: $container-max-width;
-  margin: 0 0 0 60px;
+  padding: 20px;
 }
 
 .contact {
   position: absolute;
   right: 40px;
-  top: 30px;
+  top: 50px;
 }
 
 section {
@@ -62,7 +62,7 @@ li {
 
 header {
   background: rgba(0, 0, 0, 0.1);
-  width: 99%;
+  width: 98%;
   border-top: 10px solid $cool-pink; //header;
   border-bottom: 10px solid $cool-pink; //header;
   border-left: 10px dashed $pastel-blue;
@@ -73,7 +73,7 @@ header {
 
 footer {
   background: rgba(0, 0, 0, 0.1);
-  width: 99%;
+  width: 98%;
   border-top: 10px solid $cool-pink; //header;
   border-bottom: 10px solid $cool-pink; //header;
   border-left: 10px dashed $pastel-blue;
@@ -81,6 +81,29 @@ footer {
   padding: 20px 0;
   margin-top:  auto;
 }
+
+.contact-footer {
+  display: none;
+}
+
+@media (max-width: 1000px) {
+    header {
+      width: 95%;
+    }
+    
+    footer {
+      width: 95%;
+    }
+
+    .contact {
+      display: none;
+    }
+
+    .contact-footer {
+      display: contents;
+    }
+}
+
 header h1 {
   font-size: 30px;
   line-height: 1.5;
