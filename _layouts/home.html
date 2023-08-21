@@ -5,9 +5,18 @@ layout: default
 {{ content }}
 {% assign contentwonl = content | strip_newlines %} {% unless contentwonl == ""  %} <br /> {% endunless %} <!-- add line break if there is any content -->
 
-{%- if site.posts.size > 0 -%}
+{%- if site.categories.blog > 0 -%}
   <ul>
-    {%- for post in site.posts -%}
+    {%- for post in site.categories.blog -%}
+    <li>
+      {%- assign date_format = "%Y-%m-%d" -%}
+      [ {{ post.date | date: date_format }} ] <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+    </li>
+    {%- endfor -%}
+  </ul>
+{%- else -%}
+  <ul>
+    {%- for post in site.categories.food -%}
     <li>
       {%- assign date_format = "%Y-%m-%d" -%}
       [ {{ post.date | date: date_format }} ] <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
