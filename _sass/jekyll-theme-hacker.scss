@@ -1,7 +1,7 @@
 @import "rouge-base16-dark";
 @import "default_colors";
 
-$body-background: $dark-purple !default;
+$body-background: $pastel-purple !default;
 $body-foreground: $pastel-pink !default;
 $header: $cool-pink !default;
 $blockquote-color: $pastel-blue !default;
@@ -14,6 +14,11 @@ $container-max-width: 1000px;
   }
 }
 
+@font-face {
+  font-family: 'chicago';
+  src: url('/assets/fonts/ChicagoFLF.ttf');
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -21,7 +26,7 @@ body {
   color: $body-foreground;
   font-size: 16px;
   line-height: 1.5;
-  font-family: Hack, Terminal, monospace;
+  font-family: chicago, Hack, Terminal, monospace;
   display: flex;
   flex-direction: column;
   min-height: 99vh;
@@ -63,8 +68,8 @@ li {
 header {
   background: rgba(0, 0, 0, 0.1);
   width: 98%;
-  border-top: 10px solid $cool-pink; //header;
-  border-bottom: 10px solid $cool-pink; //header;
+  border-top: 10px solid $pastel-pink; //header;
+  border-bottom: 10px solid $pastel-pink; //header;
   border-left: 10px dashed $pastel-blue;
   border-right: 10px dashed $pastel-blue;
   padding: 20px 0;
@@ -74,8 +79,8 @@ header {
 footer {
   background: rgba(0, 0, 0, 0.1);
   width: 98%;
-  border-top: 10px solid $cool-pink; //header;
-  border-bottom: 10px solid $cool-pink; //header;
+  border-top: 10px solid $pastel-pink; //header;
+  border-bottom: 10px solid $pastel-pink; //header;
   border-left: 10px dashed $pastel-blue;
   border-right: 10px dashed $pastel-blue;
   padding: 20px 0;
@@ -109,7 +114,7 @@ header h1 {
   line-height: 1.5;
   margin: 0 0 0 0;
   font-weight: bold;
-  font-family: Helvetica, "Segoe UI", "Arial", sans-serif;
+  font-family: chicago, Helvetica, "Segoe UI", "Arial", sans-serif;
   color: $cool-pink;//$header;
   letter-spacing: 5px;
   -webkit-font-smoothing: antialiased;
@@ -123,7 +128,7 @@ header h2 {
   font-size: 18px;
   font-weight: 300;
   color: $pastel-pink;
-  font-family: Helvetica, "Segoe UI", "Arial", sans-serif;
+  font-family: chicago, Helvetica, "Segoe UI", "Arial", sans-serif;
 }
 
 #downloads .btn {
@@ -145,7 +150,7 @@ section img {
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: normal;
-  font-family: Hack, Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+  font-family: chicago, Hack, Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
   color: $header;
   letter-spacing: -0.03em;
 }
@@ -245,7 +250,7 @@ hr {
   border-bottom: 2px solid rgba(0, 0, 0, 0.7);
   border-top: 2px solid rgba(0, 0, 0, 1);
   color: rgba(255, 255, 255, 0.8);
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: chicago, Helvetica, Arial, sans-serif;
   font-weight: bold;
   font-size: 13px;
   text-decoration: none;
